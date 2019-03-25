@@ -1,9 +1,11 @@
 import React from "react";
+import "./resources/styles.css";
+import Header from "./components/Header_Footer/Header";
 
 const App = () => {
   return (
-    <div>
-      <h1>App</h1>
+    <div className="App" style={{ height: "1500px", background: "red" }}>
+      <Header />
     </div>
   );
 };
